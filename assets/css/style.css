@@ -22,8 +22,11 @@ a{
     
 }
 header{
+    position: fixed;
     display: flex;
     padding: 10px 120px;
+    background: white;
+       width: 100%;
 }
 .header_texts{
     margin-left: 289px;
@@ -579,12 +582,16 @@ footer{
 .firts_column{
     margin-left: 136px;
     margin-right: 103px;
+    display: flex;
+    flex-direction: column;
 }
 .second_column{
     margin-right: 80px;
 }
 .third_column{
     margin-right: 139px;
+    display: flex;
+    flex-direction: column;
 }
 .oran_text_foot{
     font-family: Poppins;
@@ -597,6 +604,14 @@ footer{
    margin-bottom: 9px;
 }
 .text_foot{
+    font-family: Poppins;
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 22.4px;
+   color: #FFFFFF;
+   margin-bottom: 9px;
+}
+.text_foot1{
     font-family: Poppins;
     font-weight: 400;
    font-size: 16px;
